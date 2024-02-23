@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/gradient"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textSize="14px"
+            app:title="Change Personal Detail"
+            android:textStyle="bold"
+            app:navigationIcon="@drawable/baseline_arrow_back_ios_24"
+            app:menu="@menu/top_app_bar"
+            app:titleTextColor="#EDEBEB"/>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#1D1B20"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Full Employee Detail:" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Employee Name"
+        android:layout_marginLeft="10dp"
+        android:textColor="#1D1B20"
+
+        android:id="@+id/EmployeeName"
+android:layout_marginTop="15dp"
+      android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Full Name"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textViews0"
+        android:layout_marginTop="10dp"
+        android:padding="18dp"
+        android:textSize="12sp"
+android:background="@drawable/edittext_backgroung"
+        android:textColor="#D2D2D2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Employee Id"
+        android:layout_marginLeft="10dp"
+        android:textColor="#1D1B20"
+
+        android:id="@+id/EmployeeId"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Employee Id"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textViews1"
+        android:layout_marginTop="10dp"
+        android:padding="18dp"
+        android:textSize="12sp"
+        android:background="@drawable/edittext_backgroung"
+        android:textColor="#D2D2D2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Number"
+        android:layout_marginLeft="10dp"
+        android:textColor="#1D1B20"
+
+        android:id="@+id/ContactNo"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Mobile Number"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textViews2"
+        android:layout_marginTop="10dp"
+        android:padding="18dp"
+        android:textSize="12sp"
+        android:background="@drawable/edittext_backgroung"
+        android:textColor="#D2D2D2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginLeft="10dp"
+        android:textColor="#1D1B20"
+
+        android:id="@+id/Passwords"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Password"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textViews4"
+        android:layout_marginTop="10dp"
+        android:padding="18dp"
+        android:textSize="12sp"
+        android:background="@drawable/edittext_backgroung"
+        android:textColor="#D2D2D2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Re-Enter Password"
+        android:layout_marginLeft="10dp"
+        android:textColor="#1D1B20"
+
+        android:id="@+id/RePasswords"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Re-Enter Password"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textViews5"
+        android:layout_marginTop="10dp"
+        android:padding="18dp"
+        android:textSize="12sp"
+        android:background="@drawable/edittext_backgroung"
+        android:textColor="#D2D2D2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:text="Add Employee"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:backgroundTint="#5F143B"
+        android:textColor="@color/white"
+        android:padding="11dp"
+        android:textSize="19sp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/login_btn"/>
+
+
+
+
+</LinearLayout>
